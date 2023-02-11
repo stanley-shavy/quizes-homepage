@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: fit-content;
+    top: 0%;
+}
+nav{
+    position: fixed;
+    z-index: 2000;
+    width: 80%;
+    top: 0%;
+    height: 100px;
+    left: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-par{
+    position: relative;
+    height: 70px;
+    display: flex;
+    margin-left: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+nav p{
+    position: relative;
+    font-size: 25px;
+    color: green;
+}
+nav .about{
+    color: black;
+    font-size: 15px;
+}
+nav .nav-sign{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 16px;
+    background-color: green;
+    border-radius: 6px;
+    padding: 8px;
+    color: white;
+}
+.container{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 525px;
+    top: 100px;
+}
+.container img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.container .join{
+    position: absolute;
+    height: 300px;
+    background-color: white;
+    right: 30px;
+    width: 300px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.join p{
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+    margin: 12px;
+}
+.join-par{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 16px;
+    background-color: green;
+    border-radius: 6px;
+    padding: 8px;
+    color: white;
+}
+.container-icons{
+    position: absolute;
+    top: 625px;
+    height: 320px;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.info{
+    height: 180px;
+    width: 100px;
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.info .icon{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+}
+.info .icon img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+.info .topic{
+    position: relative;
+    font-size: 12px;
+    color: green;
+}
+.info .icon-about{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+}
+
+.abt{
+    position: absolute;
+    top: 950px;
+    height: 550px;
+    left: 0%;
+    width: 100%;
+    background-color: white;
+
+}
+.abt .note{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    height: 40%;
+    width: 30%;
+    padding: 16px;
+    word-spacing: 2.5px;
+    letter-spacing: 1px;
+    z-index: 200;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.abt .note .head{
+    font-weight: bold;
+    font-size: 23px;
+}
+.abt .anim{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0%;
+    top: 0%;
+}
+.content{
+    position: absolute;
+    height: 500px;
+    top: 1500px;
+    left: 0%;
+    width: 100%;
+    background-color: transparent;
+}
+.anims{
+    position: absolute;
+    height: 350px;
+    top: 75px;
+    width: 45%;
+    right: 10%;
+    background-color: transparent;
+    z-index: 100;
+}
+.anims .anim1{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 15%;
+    top: 1%;
+    z-index: 100;
+}
+.anims img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.anims .anim2{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    right: 10%;
+    top: 65%;
+}
+.anims .anim3{
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    left: 55%;
+    bottom: 35%;
+}
+.cont{
+    position: absolute;
+    height: 350px;
+    top: 75px;
+    width: 40%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    word-spacing: 2.5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.cont .bts{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cont a{
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+}
+.content1{
+    width: 100%;
+    position: absolute;
+    height: 500px;
+    top: 2000px;
+    left: 0%;
+}
+.content1 .anime{
+    position: absolute;
+    height: 500px;
+    top: 0%;
+    width: 60%;
+    left: 0%;
+}
+.content1 .anime img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+.content1 .cont1{
+    position: absolute;
+    height: 200px;
+    top: 100px;
+    right: 0%;
+    width: 50%;
+    font-size: 20px;
+    word-spacing: 2.5px;
+    letter-spacing: 1px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.content1 .cont1 .why{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content2{
+    position: absolute;
+    top: 2500px;
+    height: 600px;
+    left: 0%;
+    width: 100%;
+}
+.cont2{
+    position: absolute;
+    top: 10%;
+    height: 80%;
+    left: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    word-spacing: 2.5px;
+    letter-spacing: 1px;
+    align-items: start;
+}
+.cont2 .bolde{
+    font-weight: bold;
+    font-size: 25px;
+}
+.cont2 a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 8px;
+    margin-top: 8px;
+}
+.anime2{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    right: 0%;
+    width: 55%;
+}
+.anime2 img{
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+.footer{
+    position: absolute;
+    top: 3150px;
+    height: 500px;
+    left: 0%;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.438);
+}
+.left{
+    position: absolute;
+    top: 10%;
+    height: 70%;
+    left: 10%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links{
+    position: relative;
+    height: 100%;
+    width: 30%;
+}
+.b{
+    position: relative;
+    height: 100%;
+    width: 30%;
+}
+.c{
+    position: relative;
+    height: 100%;
+    width: 30%;
+}
+
+.left ul{
+    list-style: none;
+}
+.left li{
+    margin: 13px;
+}
+.left ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.left .uline{
+    border-bottom: 0.5px solid black;
+}
